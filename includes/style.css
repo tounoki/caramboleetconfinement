@@ -1,0 +1,86 @@
+@font-face {
+	font-family: "Kollectif";
+	src: url('font/Kollectif.ttf');
+}
+@font-face {
+	font-family: "Kollectif";
+	font-style: italic;
+	src: url('font/Kollectif-Italic.ttf');
+}
+@font-face {
+	font-family: "Kollectif";
+	font-weight: bold;
+	src: url('font/Kollectif-Bold.ttf');
+}
+body {
+	font-family: "Kollectif", Helvetica, Arial, sans-serif;
+}
+
+ul.resource-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.userbox {
+	border: 1px solid #808080 ;
+	width: 240px ;
+	float: right ;
+	padding: 5px ;
+	margin: 5px ;
+	background-color: #FFF ;
+	border-radius: 5px 5px 0 5px ;
+	}
+.userbox2 {
+	border: 1px solid #808080 ;
+	float: right ;
+	padding: 5px ;
+	margin: 5px ;
+	background-color: #FFF ;
+	border-radius: 5px 5px 0 5px ;
+	}
+.leftphotobox {
+	background-color: rgb(230,230,230) ;
+	border-radius: 5px 5px 0 5px ;
+	padding: 5px ;
+	margin: 0px 30px 40px 0px ;
+	width: 310px ;
+	text-align:center ;
+	float:left ;
+	}
+	
+.error {
+	font-weight: bold;
+	color: red ;	
+	}
+blockquote {
+	font-size: 1.5em ;
+	line-height:150% ;
+}
+blockquote:before, q:before {
+	content: open-quote ;
+	line-height:50% ;
+	font-size: 3em ; }
+blockquote:after, q:after {
+	content: close-quote ;
+	line-height:50% ;
+	font-size: 1.5em ; }
+
+textarea {
+	width: 450px ;
+	height: 70px ;	
+	}
+
+.signature {
+	text-align: right ;
+	margin-right: 15% ;
+	font-style: italic ;
+	font-size: 1.3em ;
+	}
+
+/*
+blockquote:after, q:after {
+	content: "Pascal Henriot" ;
+	font-size: 1.2em ;
+	margin-left: 350px ;
+	font-decoration: italic ; }
+	*/
